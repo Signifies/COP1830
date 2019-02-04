@@ -15,3 +15,16 @@
 
 Whenever possible, use <strong> for emphases
 <q> is the quotation tag. (also see <blockquote>) cite tag.
+- Use Table tag for lander specifications.
+
+XHTML->XML SGML->HTML XML(Designed for data). Know the difference for these.
+Meta tags. Displays a webpages description upon google searched.
+
+Centering overall text.
+
+<meta name="" contents=""/>
+
+### Errors
+- Fix photograph href error.
+- Make the text better formattated with the photographs.
+- Make photos smaller. 
