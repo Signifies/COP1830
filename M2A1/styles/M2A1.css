@@ -30,3 +30,9 @@ table th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -27,4 +27,5 @@ Centering overall text.
 ### Errors
 - Fix photograph href error.
 - Make the text better formattated with the photographs.
-- Make photos smaller. 
+- Make photos smaller.
+Right justify photos and wrap text around them.
