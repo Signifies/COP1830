@@ -3,12 +3,22 @@ h1 {
   color: black;
 }
 
+.text-container{
+  text-align: center;
+}
+
+.text{
+  display: inline-block;
+  width: 50%;
+}
+
 h2 {
   text-align: center;
   color: black;
   font-family: monospace;
   font-style: italic;
 }
+
 
 img {
   display: block;
@@ -20,7 +30,7 @@ img {
 p {
   font-size: 18px;
   font-family: verdana;
-  text-align: justify;
+  text-align: center;
 }
 
 body{
