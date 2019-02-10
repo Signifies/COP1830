@@ -34,7 +34,8 @@ p {
 }
 
 body{
-  background-color: #adad85;
+  background: url("https://i.imgur.com/Ziq4HVS.jpg")
+  /*background-color: #adad85; */
 }
 
 table th, td {
