@@ -4,7 +4,7 @@ h1{
 }
 
 
-.text-container{
+.home-container{
   text-align: center;
 }
 
@@ -13,8 +13,11 @@ h1{
   width: 60%;
 }
 
+ul {
+  text-align: left;
+}
+
 p {
   text-align: center; /*It looks like the project is supposed to be centered...idk*/
-  font-family: sans-serif;
-  font-size: 19px;
+  font-family: sans-serif
 }
