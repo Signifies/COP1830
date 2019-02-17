@@ -1,0 +1,20 @@
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: left;
+}
+
+p {
+  text-align: left;
+  font-family: sans-serif
+}
+
+.aboutme-container {
+  text-align: left; /*Maybe justify? We'll see how it plays out.*/
+}
+
+.content {
+  display: inline-block;
+/*  width: 50px; */
+}
