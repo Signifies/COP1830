@@ -12,9 +12,15 @@ p {
 
 .aboutme-container {
   text-align: left; /*Maybe justify? We'll see how it plays out.*/
+  image-orientation: center;
 }
 
 .content {
   display: inline-block;
-/*  width: 50px; */
+  width: 40%; 
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
 }

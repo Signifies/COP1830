@@ -1,4 +1,10 @@
 
+/*
+Condense all of our CSS files to one.
+I think we can use the homepage CSS for everything. Take a look at
+the header requirements for the projet.
+*/
+
 h1{
   text-align: center;
 }
