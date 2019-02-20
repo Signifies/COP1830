@@ -43,7 +43,7 @@ Home page.
 /*About me content*/
 .content {
   display: inline-block;
-  width: 40%;
+  width: 60%;
   text-align: left;
 }
 
@@ -65,6 +65,10 @@ img {
 .home-reference {
   text-align: center;
 }
+
+/*
+It looked nice.
 body {
   background-color: #adad85;
 }
+*/
