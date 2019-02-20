@@ -52,7 +52,7 @@ Home page.
   text-align: left;
 }
 /*Form content*/
-.content {
+.list-content {
   display: inline-block;
 }
 /*All images floating since we only are using one.*/
