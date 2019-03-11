@@ -1,6 +1,8 @@
 body{
+  background: black;
+  /*url("https://i.imgur.com/25sjSJa.jpg");
   background: url("https://i.imgur.com/pBfle3x.png");
-  /*background: url("https://i.imgur.com/prCkFvd.jpg");
+  background: url("https://i.imgur.com/prCkFvd.jpg");
   background-color: #42B0E2; */
 }
 
@@ -9,6 +11,7 @@ body{
 }
 p{
   font-size: 18px;
+  text
   font-family: monospace;
   text-align: center;
   color: white;
