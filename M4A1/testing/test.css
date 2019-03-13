@@ -1,3 +1,38 @@
-/*life is a lot like arch linux, really simple, but you can make it very complicated.
-Tech Acad Youtube for networking.
+/*life is a lot like arch linux, inheritantly simple, but you can make it very complicated.
+Tech Acad Youtube for networking. fernandeztb@mail.irsc.edu 
 */
+body {
+  background: yellow;
+  /*Image repeat background clear, backgroundimageurl, etc*/
+}
+
+
+
+h6 {
+  text-align: left;
+}
+
+a:visited {
+  color: red;
+}
+
+a:link {
+  color: green;
+}
+
+a:active {
+  color: blue;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: bold;
+}
+
+a {
+  text-decoration: overline;
+}
+
+td {
+
+}
