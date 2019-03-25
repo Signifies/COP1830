@@ -1,8 +1,12 @@
 /*life is a lot like arch linux, inheritantly simple, but you can make it very complicated.
-Tech Acad Youtube for networking. fernandeztb@mail.irsc.edu 
+Tech Acad Youtube for networking. fernandeztb@mail.irsc.edu
 */
 body {
   background: yellow;
+  margin-top: 120px;
+  background-image: url("http://www.gibsonr.com/classes/images/ircclogo.gif");
+  background-attachment: fixed;
+  background-repeat: repeat-x;
   /*Image repeat background clear, backgroundimageurl, etc*/
 }
 
@@ -33,6 +37,17 @@ a {
   text-decoration: overline;
 }
 
-td {
+/*Notes
+Whats a margin and now to use it.. Space around elements
+CSS separates presentation and content.
+fontweight strong to make bold text.
+css can use an Element, id and class.
+CSS presidence. Inline has higher preference
+CSS attributes no limits same with HTML.
+Inline and block statements. <span> know the difference
+Justify works ??
+br style=clear>
 
-}
+Make sure to check our default settings for firefox when finishing this project.
+Check fonts.
+*/
