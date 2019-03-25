@@ -1,5 +1,4 @@
 /*life is a lot like arch linux, inheritantly simple, but you can make it very complicated.
-Tech Acad Youtube for networking. fernandeztb@mail.irsc.edu
 */
 body {
   background: yellow;
@@ -9,8 +8,6 @@ body {
   background-repeat: repeat-x;
   /*Image repeat background clear, backgroundimageurl, etc*/
 }
-
-
 
 h6 {
   text-align: left;
@@ -30,7 +27,7 @@ a:active {
 
 a:hover {
   color: blue;
-  text-decoration: bold;
+  text-decoration: bold; /*Cant tell if the bold is showing up... Need to find my color glasses.*/
 }
 
 a {
