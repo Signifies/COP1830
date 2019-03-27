@@ -10,14 +10,14 @@ body {
   background-repeat: repeat-x;
   /*Image repeat background clear, backgroundimageurl, etc*/
 }
+h3, h5, h6 {
+  text-align: left;
+}
 
 h1, h2, h4 {
   text-align: center;
 }
 
-h3, h5, h6 {
-  text-align: left;
-}
 
 a {
   text-decoration: overline;
