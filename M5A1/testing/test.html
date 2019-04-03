@@ -11,5 +11,37 @@
     <!--
     This output will be handled by our java script statement
     -->
+    <p id="demo"></p>
+    <script>
+
+    var UI = prompt("Enter a whole number to test as a prime number.");
+    var TV = parseInt("10", UI);
+    var HITS = 0;
+    var DD = TV;
+
+    while (DD > 0 ) {
+      if(TV % DD == 0) {
+          DD--;
+      }else {
+        HITS++
+      }
+      if(HITS > 2) {
+        document.getElementById("demo").innerHTML = TV + "is not a prime Number.";
+      }else {
+        document.getElementById("demo").innerHTML = " a prime number.";
+      }
+    }
+
+    /*
+    if(TV % 2 ==0){
+      document.getElementById("demo").innerHTML = TV + " Is NOT a prime";
+    }else {
+      document.getElementById("demo").innerHTML = TV + " Is a prime";
+    }
+    */
+    </script>
+    <p>Click Refresh (or Reload) to run the script again.</p>
   </body>
 </html>
+
+<!--TD % DD > 0 {HITS++ DD decrement}
