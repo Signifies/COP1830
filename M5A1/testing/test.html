@@ -18,19 +18,19 @@
     var TV = parseInt("10", UI);
     var HITS = 0;
     var DD = TV;
-
     while (DD > 0 ) {
       if(TV % DD == 0) {
-          DD--;
-      }else {
-        HITS++
+          HITS++
       }
+      DD--;
+      /*
       if(HITS > 2) {
         document.getElementById("demo").innerHTML = TV + "is not a prime Number.";
       }else {
         document.getElementById("demo").innerHTML = " a prime number.";
       }
     }
+    */
 
     /*
     if(TV % 2 ==0){
@@ -39,6 +39,12 @@
       document.getElementById("demo").innerHTML = TV + " Is a prime";
     }
     */
+    if(HITS > 2) {
+      document.write(TV +" is not a prime number");
+    }
+    document.write(TV +" is a prime number.")
+    /*Currently, neither browser is loading the popup display.*/
+    document.getElementById("demo").innerHTML = UI;
     </script>
     <p>Click Refresh (or Reload) to run the script again.</p>
   </body>
