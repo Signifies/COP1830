@@ -10,13 +10,13 @@ if(HITS>2){
   document.getElementById("demo").innerHTML = TV;
 }
 */
+document.write(TV + " is a prime number");
+if(HITS > 2) {
+document.write(TV +" is not a prime number");
+}
+
 while (DD > 0 ) {
   if(TV % DD == 0) {
       HITS++
-  }
-  DD--;
-
-  document.write(TV + " is a prime number");
-  if(HITS > 2) {
-  document.write(TV +" is not a prime number");
+        DD--;
   }
