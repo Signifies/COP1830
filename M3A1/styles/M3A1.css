@@ -5,7 +5,6 @@ I think we can use the homepage CSS for everything. Take a look at
 the header requirements for the projet.
 */
 
-/*Formatting.*/
 h1{
   text-align: center;
 }
@@ -33,7 +32,7 @@ Home page.
 /*home text.*/
 .about{
   display: inline-block;
-  width: 60%;
+
   text-align: left;
 }
 
@@ -42,8 +41,6 @@ Home page.
 }
 /*About me content*/
 .content {
-  display: inline-block;
-  width: 60%;
   text-align: left;
 }
 
@@ -65,6 +62,11 @@ img {
 .home-reference {
   text-align: center;
 }
+
+table {
+  border: 0px;
+}
+
 
 /*
 It looked nice.

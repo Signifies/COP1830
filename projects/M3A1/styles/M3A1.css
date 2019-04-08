@@ -1,0 +1,20 @@
+
+h1{
+  text-align: center;
+}
+
+
+.text-container{
+  text-align: center;
+}
+
+.about{
+  display: inline-block;
+  width: 60%;
+}
+
+p {
+  text-align: center; /*It looks like the project is supposed to be centered...idk*/
+  font-family: sans-serif;
+  font-size: 19px;
+}
