@@ -3,7 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>TESTING1</title>
+    <script src="test.js">
+    </script>
     <!--
+    see diveintohtml.com !!document for canvas
     diveinto.html5doctor.com
     var i = document.createElement();
     i.setAttribute("type", "color");
@@ -22,7 +25,8 @@
   </head>
   <body>
     <ul id="nav">
-      <li><a href="#BT">Browser Test</a></li>
+      <!--Use the button design created from our other nav.-->
+      <li><a href="#BT" class="button" onclick="browserTest()">Browser Test</a></li>
       <li><a href="#FT">HTML Feature Test</a></li>
       <li class="dropdown"><a href="#MT" class="droptn">Mobile Tests</a>
         <div class="dropdown-content">
@@ -36,7 +40,6 @@
     <h1 id="heading">Click a menu item above to test various web features</h1>
 
     <div id="output">
-
       <!--Empty initally, but manipulated by our javascript later-->
     </div>
   </body>

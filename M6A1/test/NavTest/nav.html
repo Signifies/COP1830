@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="nav.js"></script>
+    <link rel="stylesheet" href="nav.css">
+    <title>NAV TESTING</title>
+  </head>
+  <body>
+    <!--
+    <a href="javascript:void(0);" class="droptn">Mobile Tests</a> //There seems to be a javascript void with any of the dropdown boxes.
+    buttons -> <a href="#" class="button" onclick="methodName()">Name of clickable</a>
+    -->
+    <li><a href="#BT" class="button" onclick="browserTest()">Browser Test</a></li>
+      <li><a href="#FT">HTML Feature Test</a></li>
+      <li class="dropdown"><a href="#MT" class="droptn">Mobile Tests</a>
+        <div class="dropdown-content">
+          <a href="#SR">Screen Resolution</a>
+          <a href="#SO">Screen Oriontation</a>
+        </div>
+      </li>
+      <li><a href="#CT">Canvas Test</a></li>
+    </ul> <!-- Why is this complaining???-->
+    <br>
+    <h1 id="heading">Click a menu item above to test various web features</h1>
+
+    <div id="output">
+      <!--Empty initally, but manipulated by our javascript later-->
+    </div>
+  </body>
+</html>
