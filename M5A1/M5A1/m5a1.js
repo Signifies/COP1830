@@ -1,5 +1,6 @@
 /**
 m5a1.htm
+Evan Stuehmer
 04/04/19
 */
 var UI = prompt("Enter a whole number to test as a prime number.", "");
