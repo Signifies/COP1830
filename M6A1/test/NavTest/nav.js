@@ -77,6 +77,19 @@ function support() {
   return !!document.createElement('canvas').getContext;
 }
 
+function supportText() {
+  if(support()) {
+    var testCanvas = document.createElement('canvas');
+    var context = testCanvas.getContext('2d');
+    return typeof context.fillText == 'function';
+  }
+}
+function canvasTextSupport() {
+  document.getElementById("heading").innerHTML = "Canvas Information";
+  var test = supportText() ? "This browser supports canvas text." : "Sorry, this browser does not support canvas text. :[";
+  document.getElementById("output").innerHTML = test;
+}
+
 /**
 General Support
 */

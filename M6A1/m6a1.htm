@@ -1,0 +1,39 @@
+<!--
+FILENAME: m6a1.htm
+AUTHOR:
+DATE: 04/18/19
+-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="m6a1.css">
+    <script src="m6a1.js"> //Make sure to change our file names.</script>
+    <title>NAV TESTING</title>
+  </head>
+  <body>
+    <ul id="nav">
+    <li><a href="#BT" class="button" onclick="browserTest()">Browser Test</a></li>
+      <li><a href="#FT" class="button" onclick="featureTest()">HTML Feature Test</a></li>
+      <li class="dropdown"><a href="javascript:void(0);" class="droptn">Mobile Tests</a>
+        <div class="dropdown-content">
+          <a href="#SR" class="button" onclick="resolution()">Screen Resolution</a>
+          <a href="#SO" class="button" onclick="orientation()">Screen Oriontation</a>
+        </div>
+      </li>
+      <li class="dropdown"><a href="javascript:void(0);" class="droptn">Canvas Test</a>
+        <div class="dropdown-content">
+          <a href="#" class="button" onclick="generalSupport()">General Support</a>
+          <a href="#" class="button" onclick="canvasTextSupport()">Text Support</a>
+          <a href="#">Draw Canvas</a>
+        </div>
+      </li>
+    </ul>
+    <br>
+    <h1 id="heading">Click a menu item above to test various web features</h1>
+
+    <div id="output">
+      <!--Empty initally, but manipulated by our javascript later-->
+    </div>
+  </body>
+</html>
