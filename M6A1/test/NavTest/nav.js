@@ -30,6 +30,29 @@ function featureTest() {
       document.getElementById("output").innerHTML = dataValues;
 }
 
+function resolution() {
+  document.getElementById("heading").innerHTML = "Mobile Screen Information";
+  var res = "";
+  res +="<ul>";
+  res += "<li>Width: " +screen.width+ "</li>";
+  res += "<li>Height: " +screen.height+ "</li>";
+  res +="</ul>";
+  document.getElementById("output").innerHTML = res;
+}
+
+function orientation() {
+  var h = screen.height;
+  var w = screen.width;
+
+  var oRes = (h > w) ? "portrait-primary" : "landscape-primary"; //Can I just same how much I love ternary operations???
+
+  var format = "";
+  format +="<ul>";
+  format += "<li>Orientation: " +oRes+"</li>";
+  format +="</ul>";
+  document.getElementById("output").innerHTML = format; //landscape
+}
+
 /*
 function test() {
   var typeValues = ["search", "number", "range", "color", "tel", "url", "email", "date", "month", "week", "datetime", "datetime-local"];
