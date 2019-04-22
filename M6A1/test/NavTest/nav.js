@@ -3,6 +3,7 @@ function browserTest() {
   var heading = "Browser Information";
   document.getElementById("heading").innerHTML = heading;
   var output = "";
+  output +="<ul>";
   output += "<li>Browser CodeName: " + navigator.appCodeName + "</li>";
   output += "<li>Browser Name: " + navigator.appName + "</li>";
   output += "<li>Browser Version: " + navigator.appVersion + "</li>";
@@ -11,7 +12,8 @@ function browserTest() {
   output += "<li>Browser Online: " + navigator.onLine + "</li>";
   output += "<li>Platform: " + navigator.platform + "</li>";
   output += "<li>User-agent header: " + navigator.userAgent + "</li>";
-  document.getElementById("Test").innerHTML = output;
+  output += "</ul>";
+  document.getElementById("output").innerHTML = output;
 }
 
 function featureTest(){
