@@ -15,25 +15,66 @@ function browserTest() {
   document.getElementById("output").innerHTML = output;
 }
 
+function test() {
+  var typeValues = ["search", "number", "range", "color", "tel", "url", "email", "date", "month", "week", "datetime", "datetime-local"];
+  var i = document.createElement("input");
+  for(l =0; l <= typeValues.length; l++) {
+
+    i.setAttribute("type",typeValues[l]);
+    var result = i.type !== "text" ? "YES" : "NO";
+    var output = "";
+    output += "<ul>";
+
+    output += "<li>Search: " + result+"</li>";
+    output += "<li>Number: " + result +"</li>";
+    output += "<li>Range: " + result +"</li>";
+    output += "<li>Color: " + result +"</li>";
+    output += "<li>Tel: " + result +"</li>";
+    output += "<li>Url: " + result +"</li>";
+    output += "<li>Email: " + result +"</li>";
+    output += "<li>Date: " + result +"</li>";
+    output += "<li>Date: " + result +"</li>";
+    output += "<li>Month: " + result +"</li>";
+    output += "<li>Week: " + result+"</li>";
+    output += "<li>Time: " + result +"</li>";
+    output += "<li>Datetime: " + result +"</li>";
+    output += "<li>Datetime-local" + result +"</li>";
+    output += "</ul>";
+    document.getElementById("output").innerHTML = output;
+  }
+}
+
+/*
+
+
 function featureTest() {
   document.getElementById("heading").innerHTML = "Compatible HTML5 Features";
   var output = "";
   output += "<ul>";
-  output += "<li>Search: " + "hi" +"</li>"
+
+  output += "<li>Search: " +  +"</li>"
+  output += "<li>Number: " + "VALUE" +"</li>"
+  output += "<li>Range: " + "VALUE" +"</li>"
+  output += "<li>: " + "VALUE" +"</li>"
+  output += "<li>Search: " + "VALUE" +"</li>"
+  output += "<li>Search: " + "VALUE" +"</li>"
+  output += "<li>Search: " + "VALUE" +"</li>"
+  output += "<li>Search: " + "VALUE" +"</li>"
+  output += "<li>Search: " + "VALUE" +"</li>"
+  output += "<li>Search: " + "VALUE" +"</li>"
+  output += "<li>Search: " + "VALUE" +"</li>"
+  output += "<li>Search: " + "VALUE" +"</li>"
+  output += "<li>Search: " + "VALUE" +"</li>"
   output += "</ul>";
   document.getElementById("output").innerHTML = output;
-
 }
 
-/*
-function test() {
-  var typeValues = ["search", "number", "range", "color", "tel", "url", "email", "date", "month", "week", "datetime", "datetime-local"];
+
+function feature (value) {
   var i = document.createElement("input");
-  for(int l =0; l <= typeValues.length; l++; ) {
-
-    i.setAttribute("type",typeValues[l]);
-    var result = i.type !== "text" ? "YES" : "NO";
-    document.getElementById("output").innerHTML = result;
-  }
+  var.setAttribute("type", value);
+  return i.type !== "text" ? "YES" : "NO";
 }
+
+
 */
