@@ -18,6 +18,23 @@ function browserTest() {
 function test() {
   var typeValues = ["search", "number", "range", "color", "tel", "url", "email", "date", "month", "week", "datetime", "datetime-local"];
   var i = document.createElement("input");
+  for(l=0; l <= typeValues.length; l++) {
+
+                i.setAttribute("type",typeValues[l]);
+                var result = i.type !== "text" ? "YES" : "NO";
+                var output = "";
+                output += "<ul>";
+
+                output += "<li>" + typeValues[l] + ": " + result+"</li>";
+                output +="</ul>"
+              document.getElementById("output").innerHTML += output;
+      }
+}
+
+/*
+function test() {
+  var typeValues = ["search", "number", "range", "color", "tel", "url", "email", "date", "month", "week", "datetime", "datetime-local"];
+  var i = document.createElement("input");
   for(l =0; l <= typeValues.length; l++) {
 
     i.setAttribute("type",typeValues[l]);
@@ -43,9 +60,6 @@ function test() {
     document.getElementById("output").innerHTML = output;
   }
 }
-
-/*
-
 
 function featureTest() {
   document.getElementById("heading").innerHTML = "Compatible HTML5 Features";
