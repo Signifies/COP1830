@@ -8,8 +8,8 @@ DATE: 04/18/19
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="m6a1.css">
-    <script src="m6a1.js"> //Make sure to change our file names.</script>
-    <title>NAV TESTING</title>
+    <script src="m6a1.js"></script>
+    <title>HTML5</title>
   </head>
   <body>
     <ul id="nav">
@@ -25,15 +25,15 @@ DATE: 04/18/19
         <div class="dropdown-content">
           <a href="#" class="button" onclick="generalSupport()">General Support</a>
           <a href="#" class="button" onclick="canvasTextSupport()">Text Support</a>
-          <a href="#">Draw Canvas</a>
+          <a href="#" class="button" onclick="drawCanvas()">Draw Canvas</a>
         </div>
       </li>
     </ul>
     <br>
     <h1 id="heading">Click a menu item above to test various web features</h1>
-
     <div id="output">
       <!--Empty initally, but manipulated by our javascript later-->
     </div>
+<canvas id="myCanvas" width="0" height="0"></canvas>
   </body>
 </html>

@@ -77,6 +77,19 @@ function support() {
   return !!document.createElement('canvas').getContext;
 }
 
+function drawCanvas() {
+      document.getElementById("heading").innerHTML = "Canvas Information";
+      document.getElementById("output").innerHTML = "";
+      var canvas = document.getElementById("myCanvas");
+      var context = canvas.getContext("2d");
+      var sat = new Image();
+      sat.src = "images/serveimage.png";
+      sat.onload = function() {
+        context.drawImage(sat, 5, 5);
+
+      };
+}
+
 function supportText() {
   if(support()) {
     var testCanvas = document.createElement('canvas');
@@ -89,7 +102,6 @@ function canvasTextSupport() {
   var test = supportText() ? "This browser supports canvas text." : "Sorry, this browser does not support canvas text. :[";
   document.getElementById("output").innerHTML = test;
 }
-
 /**
 General Support
 */
