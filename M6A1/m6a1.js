@@ -77,19 +77,6 @@ function support() {
   return !!document.createElement('canvas').getContext;
 }
 
-function drawCanvas() {
-      document.getElementById("heading").innerHTML = "Canvas Information";
-      document.getElementById("output").innerHTML = "";
-      var canvas = document.getElementById("myCanvas");
-      var context = canvas.getContext("2d");
-      var sat = new Image();
-      sat.src = "images/serveimage.png";
-      sat.onload = function() {
-        context.drawImage(sat, 5, 5);
-
-      };
-}
-
 function supportText() {
   if(support()) {
     var testCanvas = document.createElement('canvas');
@@ -114,3 +101,13 @@ function generalSupport() {
   format +="</ul>";
   document.getElementById("output").innerHTML = format;
 }
+
+function drawCanvas(){
+            document.getElementById("heading").innerHTML = "Canvas Information";
+            document.getElementById("output").innerHTML = "";
+            var canvas = document.getElementById("myCanvas");
+            var ctx = canvas.getContext("2d");
+            var img = new Image();
+            img.src = "images/serveimage.png";
+            ctx.drawImage(img, screen.height, screen.width);
+        };
